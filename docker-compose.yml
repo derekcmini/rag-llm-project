@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  rag-llm:
+    build: .
+    container_name: rag_llm_container
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
