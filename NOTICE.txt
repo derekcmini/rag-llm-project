@@ -1,0 +1,10 @@
+This RAG + LLM project includes software developed by:
+
+- Georgi Gerganov for llama.cpp (https://github.com/ggerganov/llama.cpp)
+- Facebook AI Research for FAISS (https://github.com/facebookresearch/faiss)
+- Beijing Academy of Artificial Intelligence for bge-small-zh (https://huggingface.co/BAAI/bge-small-zh)
+- CH-UP community for mistral-7b-v3-alpaca-cleaned-zh-cn (https://huggingface.co/CH-UP/mistral-7b-v3-alpaca-cleaned-zh-cn)
+- UKPLab for sentence-transformers (https://github.com/UKPLab/sentence-transformers)
+- Pallets Projects for Flask and flask-cors (https://flask.palletsprojects.com)
+
+These components are used under the MIT or Apache 2.0 open source licenses.
